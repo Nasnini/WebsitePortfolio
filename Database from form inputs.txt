@@ -1,0 +1,26 @@
+<?php
+
+//Inserting data from the HTML form
+$server = "localhost";
+$username = "Username";
+$password = "0000";
+$database = "Exlusive";
+$serverConnection = mysql_connect($server, $username, $password);
+
+$FirstName =$_POST["firstName"];
+$lastName =$_POST["lastNameName"];
+$userName =$_POST["userNameName"];
+$password =$_POST["password"];
+$email =$_POST["email"];
+
+
+
+
+
+
+
+
+
+
+
+?>
